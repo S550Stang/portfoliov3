@@ -1,5 +1,10 @@
-import React from "react";
+import { Heading } from "./bodyComponent/Heading";
 
 export const Body = () => {
-  return <div>Body</div>;
+  return (
+    <div className=" text-white">
+      <div className="w-screen h-28"></div>
+      <Heading />
+    </div>
+  );
 };

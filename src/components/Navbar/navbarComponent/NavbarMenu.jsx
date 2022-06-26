@@ -16,7 +16,7 @@ export const NavbarMenu = () => {
           <HiOutlineMenuAlt4 className="w-7 h-7" />
         )}
       </button>
-      <ul className="hidden md:flex justify-between items-center font-lighter md:gap-6 lg:gap-10 xl:gap-16 2xl:gap-28 md:text-md lg:text-lg xl:text-xl 2xl:text-2xl ">
+      <ul className="hidden md:flex justify-between items-center font-extralight md:gap-6 lg:gap-10 xl:gap-16 2xl:gap-28 md:text-md lg:text-lg xl:text-xl 2xl:text-2xl ">
         <li>
           <a href="#Home" className="hover:underline">
             Home

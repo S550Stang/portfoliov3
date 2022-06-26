@@ -7,20 +7,20 @@ export const NavbarDropDown = ({ menu }) => {
       {menu ? (
         <motion.div
           animate={{ y: 1 }}
-          className="fixed left-0 right-0 w-screen h-28 bg-[#3F37C9] rounded-b-2xl"
+          className="fixed left-0 right-0 w-screen h-28 bg-gradient-to-br from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md shadow-xl   rounded-b-2xl"
         >
           <ul className="px-5 font-light">
             <motion.li
-              initial={{ x: 100 }}
+              initial={{ x: "100vw" }}
               animate={{ x: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0 }}
             >
               <a href="#Home" className="hover:underline">
                 Home
               </a>
             </motion.li>
             <motion.li
-              initial={{ x: 100 }}
+              initial={{ x: "100vw" }}
               animate={{ x: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
             >
@@ -29,7 +29,7 @@ export const NavbarDropDown = ({ menu }) => {
               </a>
             </motion.li>
             <motion.li
-              initial={{ x: 100 }}
+              initial={{ x: "100vw" }}
               animate={{ x: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
@@ -38,7 +38,7 @@ export const NavbarDropDown = ({ menu }) => {
               </a>
             </motion.li>
             <motion.li
-              initial={{ x: 100 }}
+              initial={{ x: "100vw" }}
               animate={{ x: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.4 }}
             >
