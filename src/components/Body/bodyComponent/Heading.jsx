@@ -11,7 +11,8 @@ export const Heading = () => {
       and i am a Full Stack
       <br />
       <span className="text-[#3F37C9] underline">Web Dev.</span>
-      <button className="bg-[#3F37C9] text-sm p-2 rounded-3xl cursor-pointer ">
+      <br />
+      <button className="bg-[#3F37C9] text-3xl p-2 rounded-3xl cursor-pointer ">
         <a href="#MyWork">Projects.</a>
       </button>
     </div>
