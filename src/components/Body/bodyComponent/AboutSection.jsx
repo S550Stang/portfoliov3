@@ -3,10 +3,13 @@ import image from "../../../assets/dp.jpg";
 export const AboutSection = () => {
   return (
     <div className="container mx-auto p-5 relative">
-      <p className="absolute left-0 text-[#3F37C9]/40 text-9xl font-bold break-all -z-10">
+      <p
+        className="absolute left-0 text-[#3F37C9]/40  font-bold break-all -z-10 text-[#3F37C9] opacity-20   text-9xl
+         md:text-[200px] lg:text-[250px] xl:text-[320px] 2xl:text-[400px]"
+      >
         ABOUT
       </p>
-      <div className="flex flex-col space-y-4 lg:flex-row justify-between md:gap-10 items-center mt-10">
+      <div className="flex flex-col space-y-4 lg:flex-row justify-between md:gap-10 items-center mt-20">
         <div className=" w-82  lg:w-[3000px]  ">
           <img src={image} alt="display" className=" bg-cover rounded-3xl" />
         </div>
