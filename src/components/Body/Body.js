@@ -1,6 +1,7 @@
 import { Heading } from "./bodyComponent/Heading";
 import { AboutSection } from "./bodyComponent/AboutSection";
 import { ExperienceSection } from "./bodyComponent/ExperienceSection";
+import { SkillsSection } from "./bodyComponent/SkillsSection";
 
 export const Body = () => {
   return (
@@ -9,6 +10,7 @@ export const Body = () => {
       <Heading />
       <AboutSection />
       <ExperienceSection />
+      <SkillsSection />
     </div>
   );
 };
