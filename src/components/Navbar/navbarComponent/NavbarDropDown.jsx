@@ -7,7 +7,7 @@ export const NavbarDropDown = ({ menu }) => {
       {menu ? (
         <motion.div
           animate={{ y: 1 }}
-          className="md:hidden fixed mt-3 right-0 left-0  w-screen h-28 bg-gradient-to-br from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md shadow-xl rounded-b-2xl"
+          className="md:hidden fixed mt-3 right-0 left-0  w-screen h-28 bg-gradient-to-br from-[#09001D]  to-transparent bg-opacity-40  backdrop-blur-md shadow-xl rounded-b-2xl"
         >
           <ul className="md:hidden px-5 font-light">
             <motion.li
