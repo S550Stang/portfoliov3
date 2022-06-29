@@ -17,24 +17,24 @@ export const NavbarMenu = () => {
           <HiOutlineMenuAlt4 className="w-7 h-7" />
         )}
       </button>
-      <ul className="hidden md:flex justify-between items-center font-thin tracking-tighter md:gap-6 lg:gap-10 xl:gap-16 2xl:gap-28 md:text-md lg:text-lg xl:text-xl 2xl:text-2xl ">
+      <ul className="hidden md:flex justify-between items-center font-normal tracking-tighter md:gap-6 lg:gap-10 xl:gap-16 2xl:gap-28 md:text-md  ">
         <li>
-          <a href="#Home" className="hover:underline">
+          <a href="#Home" className="hover:underline  cursor-pointer">
             Home
           </a>
         </li>
         <li>
-          <a href="#MyWork" className="hover:underline cursor-pointer">
+          <a href="#MyWork" className="hover:underline cursor-pointer ">
             My Work
           </a>
         </li>
         <li>
-          <a href={CV} download className="cursor-pointer ">
+          <a href={CV} download className="hover:underline cursor-pointer ">
             Resume
           </a>
         </li>
         <li>
-          <a href="#ContactMe" className="hover:underline">
+          <a href="#ContactMe" className="hover:underline cursor-pointer">
             Contact Me
           </a>
         </li>

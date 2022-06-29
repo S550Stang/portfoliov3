@@ -12,8 +12,8 @@ export const HeadingSection = () => {
       <span className="text-[#3F37C9] underline">Web Dev.</span>
       <br />
       <div className="flex justify-between items-center">
-        <button className="bg-[#3F37C9] font-light text-3xl px-4 py-2 rounded-3xl cursor-pointer ">
-          <a href="#MyWork">Projects.</a>
+        <button className="bg-[#3F37C9] font-light text-3xl px-4 py-2 rounded-3xl cursor-pointer hover:scale-110 transition duration-300 ease-in-out ">
+          <a href="#MyWork">Projects</a>
         </button>
         <img src={Image} alt="Hey" className="hidden md:block w-40" />
       </div>

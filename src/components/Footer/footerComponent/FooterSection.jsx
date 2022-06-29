@@ -29,7 +29,7 @@ export const FooterSection = () => {
         });
   }, [inView, animation]);
   return (
-    <div className="mt-10 px-2 bg-[#3F37C9] w-screen h-20 flex items-center justify-between text-white font-light  ">
+    <div className="mt-10 px-2 bg-[#3F37C9] w-screen h-14 rounded-t-2xl flex items-center justify-between  font-light  ">
       <div className="text-xs"> © All Copyrights Reserved </div>
       <motion.div
         ref={ref}

@@ -1,4 +1,4 @@
-import React from "react";
+import CV from "../../../assets/Prabhu_Resume.docx";
 import { motion } from "framer-motion";
 
 export const NavbarDropDown = ({ menu }) => {
@@ -7,9 +7,9 @@ export const NavbarDropDown = ({ menu }) => {
       {menu ? (
         <motion.div
           animate={{ y: 1 }}
-          className="fixed left-0 right-0 w-screen h-28 bg-gradient-to-br from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md shadow-xl   rounded-b-2xl"
+          className="md:hidden fixed mt-3 right-0 left-0  w-screen h-28 bg-gradient-to-br from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md shadow-xl rounded-b-2xl"
         >
-          <ul className="px-5 font-light">
+          <ul className="md:hidden px-5 font-light">
             <motion.li
               initial={{ x: "100vw" }}
               animate={{ x: 1 }}
@@ -33,7 +33,7 @@ export const NavbarDropDown = ({ menu }) => {
               animate={{ x: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
-              <a href="#Resume" className="hover:underline">
+              <a href={CV} download className="hover:underline cursor-pointer ">
                 Resume
               </a>
             </motion.li>
