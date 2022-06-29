@@ -2,6 +2,7 @@ import { Heading } from "./bodyComponent/Heading";
 import { AboutSection } from "./bodyComponent/AboutSection";
 import { ExperienceSection } from "./bodyComponent/ExperienceSection";
 import { SkillsSection } from "./bodyComponent/SkillsSection";
+import { ProjectsSection1 } from "./bodyComponent/ProjectsSection1";
 
 export const Body = () => {
   return (
@@ -11,6 +12,7 @@ export const Body = () => {
       <AboutSection />
       <ExperienceSection />
       <SkillsSection />
+      <ProjectsSection1 />
     </div>
   );
 };
