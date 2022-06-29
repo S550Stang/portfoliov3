@@ -3,7 +3,7 @@ import Image from "../../../assets/image.svg";
 
 export const Heading = () => {
   return (
-    <div className="container mx-auto font-bold text-5xl sm:text-6xl md:text-7xl lg:text:8xl  break-words p-5 space-y-4">
+    <div className="container mx-auto font-bold text-5xl sm:text-6xl md:text-7xl lg:text:8xl  break-words p-5 space-y-4 w-screen">
       Hi, i'm Prabhu.
       <br />
       and i am a Full Stack

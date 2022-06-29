@@ -4,7 +4,7 @@ import { ExperienceSection } from "./bodyComponent/ExperienceSection";
 
 export const Body = () => {
   return (
-    <div className=" text-white">
+    <div className=" text-white w-screen">
       <div id="Home" className="w-screen h-44"></div>
       <Heading />
       <AboutSection />
