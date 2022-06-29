@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HiOutlineMenu, HiOutlineMenuAlt4 } from "react-icons/hi";
 import { NavbarDropDown } from "./NavbarDropDown";
+import CV from "../../../assets/Prabhu_Resume.docx";
 
 export const NavbarMenu = () => {
   const [menu, setMenu] = useState(false);
@@ -23,12 +24,12 @@ export const NavbarMenu = () => {
           </a>
         </li>
         <li>
-          <a href="#MyWork" className="hover:underline">
+          <a href="#MyWork" className="hover:underline cursor-pointer">
             My Work
           </a>
         </li>
         <li>
-          <a href="#Resume" className="hover:underline">
+          <a href={CV} download className="cursor-pointer ">
             Resume
           </a>
         </li>

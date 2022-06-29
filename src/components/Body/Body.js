@@ -1,4 +1,4 @@
-import { Heading } from "./bodyComponent/Heading";
+import { HeadingSection } from "./bodyComponent/HeadingSection";
 import { AboutSection } from "./bodyComponent/AboutSection";
 import { ExperienceSection } from "./bodyComponent/ExperienceSection";
 import { SkillsSection } from "./bodyComponent/SkillsSection";
@@ -9,9 +9,8 @@ import { ContactSection } from "./bodyComponent/ContactSection";
 
 export const Body = () => {
   return (
-    <div className=" text-white w-screen">
-      <div id="Home" className="w-screen h-44"></div>
-      <Heading />
+    <div className=" text-white w-screen space-y-10">
+      <HeadingSection />
       <AboutSection />
       <ExperienceSection />
       <SkillsSection />

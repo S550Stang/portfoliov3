@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "../../../assets/image.svg";
 
-export const Heading = () => {
+export const HeadingSection = () => {
   return (
-    <div className="container mx-auto font-bold text-5xl sm:text-6xl md:text-7xl lg:text:8xl  break-words p-5 space-y-4 w-screen">
+    <div className="container mx-auto font-bold text-5xl sm:text-6xl md:text-7xl lg:text:8xl  break-words p-5 space-y-4 w-full">
+      <div id="Home" className="w-full h-48 "></div>
       Hi, i'm Prabhu.
       <br />
       and i am a Full Stack

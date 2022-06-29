@@ -7,6 +7,7 @@ import Lotide from "../../../assets/Lotide.png";
 export const ProjectsSection1 = () => {
   return (
     <div className="container mx-auto p-5 ">
+      <div id="MyWork" className="w-full h-20 " />
       <p
         className="absolute left-0 text-[#3F37C9]/40  font-bold break-all -z-10 text-[#3F37C9] opacity-20   text-9xl
    md:text-[200px] lg:text-[250px] xl:text-[320px] 2xl:text-[400px]"
@@ -15,11 +16,8 @@ export const ProjectsSection1 = () => {
       </p>
       <div className="mt-10 sm:mt-20  grid grid-cols-1 gap-y-4 sm:gap-y-8   text-white 2xl:px-20 ">
         {/** Front - End Grid #1 */}
-        <div className="mx-auto bg-gradient-to-l from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md  border border-[#3F37C9] rounded-3xl w-52 md:w-96 lg:w-4/5 xl:w-5/6 2xl:w-5/6 h-52 2xl:h-[400px] px-3 lg:px-0 flex overflow-hidden  font-normal">
-          <di
-            v
-            className="flex flex-col text-left justify-center items-start gap-y-3 2xl:gap-y-6 lg:px-5"
-          >
+        <div className="mx-auto bg-gradient-to-l from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md  border border-[#3F37C9] rounded-3xl w-52 sm:w-96 md:w-96 lg:w-4/5 xl:w-5/6  h-52  px-3 lg:px-0 flex overflow-hidden  font-normal">
+          <div className="flex flex-col text-left justify-center items-start gap-y-3 2xl:gap-y-6 lg:px-5">
             <p className="inline-block break-words xl:text-xl 2xl:text-2xl ">
               LOTIDE-LIBRARY
             </p>
@@ -36,7 +34,7 @@ export const ProjectsSection1 = () => {
               </a>{" "}
               <FiGithub className="ml-2" />
             </button>
-          </di>
+          </div>
           <div className="flex flex-col items-center justify-end p-1 ">
             <DiJavascript1 className="text-4xl 2xl:text-5xl text-[#3F37C9]" />
           </div>
@@ -45,7 +43,7 @@ export const ProjectsSection1 = () => {
           </div>
         </div>
         {/** Back - End Grid #2 */}
-        <div className="mx-auto bg-gradient-to-r from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md  border border-[#3F37C9] rounded-3xl w-52 md:w-96 lg:w-4/5 xl:w-5/6 2xl:w-5/6 h-52 2xl:h-[400px] px-3 lg:px-0 flex lg:flex-row-reverse  overflow-hidden  font-normal">
+        <div className="mx-auto bg-gradient-to-r from-[#3F37C9]  to-transparent bg-opacity-40  backdrop-blur-md  border border-[#3F37C9] rounded-3xl w-52 sm:w-96 md:w-96 lg:w-4/5 xl:w-5/6  h-52  px-3 lg:px-0 flex lg:flex-row-reverse  overflow-hidden  font-normal">
           <div className="flex">
             <div className="flex flex-col   text-left justify-center items-start gap-y-1 2xl:gap-y-6 lg:px-5">
               <p className="inline-block break-words xl:text-xl 2xl:text-2xl ">
@@ -76,7 +74,7 @@ export const ProjectsSection1 = () => {
           </div>
           {/**Place Image here */}
           <div className="hidden lg:inline-flex w-2/3 xl:w-96 2xl:w-[800px] h-full bg-[#3F37C9] ">
-            <img className="w-full" src={Mmemoirs} alt="memoirs picture" />
+            <img className="w-full" src={Mmemoirs} alt="memoirspicture" />
           </div>
         </div>
       </div>
