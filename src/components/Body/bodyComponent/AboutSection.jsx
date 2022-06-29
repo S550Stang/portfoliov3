@@ -17,7 +17,7 @@ export const AboutSection = () => {
           Hey there! Thank you for dropping by, here's a little bit about me, I
           have a <span className="text-[#3F37C9]">Bachelors Degree</span> in
           computer science and a
-          <span className="text-[#3F37C9]">Post Graduate Diploma</span> in
+          <span className="text-[#3F37C9]"> Post Graduate Diploma</span> in
           global business. I am a quick learner, I love to fail just so i could
           raise back up stronger.
         </p>

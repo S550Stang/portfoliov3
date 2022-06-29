@@ -8,6 +8,6 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-[#09001D] h-screen w-screen;
+    @apply bg-[#09001D] h-full w-full  overflow-x-hidden;
   }
 }

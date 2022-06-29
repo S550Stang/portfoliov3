@@ -9,7 +9,7 @@ import { ContactSection } from "./bodyComponent/ContactSection";
 
 export const Body = () => {
   return (
-    <div className=" text-white w-screen space-y-10">
+    <div className=" text-white w-screen space-y-10 ">
       <HeadingSection />
       <AboutSection />
       <ExperienceSection />
